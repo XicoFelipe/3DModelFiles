@@ -1,0 +1,225 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2217,
+            "type": "VEC3",
+            "max": [
+                4.3855085372924805,
+                2.7358977794647217,
+                1.2895277738571167
+            ],
+            "min": [
+                -4.3855085372924805,
+                -2.7396159172058105,
+                -1.2895277738571167
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2217,
+            "type": "VEC3",
+            "max": [
+                0.9998831152915955,
+                0.9996243119239807,
+                0.9999801516532898
+            ],
+            "min": [
+                -0.9997642636299133,
+                -0.9995980858802795,
+                -0.9999801516532898
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2217,
+            "type": "VEC2",
+            "max": [
+                0.982878565788269,
+                0.9999852180480957
+            ],
+            "min": [
+                0.000033482909202575684,
+                0.000049233436584472656
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2217,
+            "type": "VEC4",
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 10686,
+            "type": "SCALAR",
+            "max": [
+                2216
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 149160,
+            "uri": "Caramelo_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 26604,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 26604,
+            "byteLength": 26604,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 53208,
+            "byteLength": 17736,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 70944,
+            "byteLength": 35472,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 106416,
+            "byteLength": 42744,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "textures/image_0.png"
+        }
+    ],
+    "materials": [
+        {
+            "name": "49",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 4,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2,
+                        "COLOR_0": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Caramelo",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "root",
+            "children": [
+                2
+            ],
+            "extras": {
+                "name": "root"
+            }
+        },
+        {
+            "name": "mesh_id27",
+            "matrix": [
+                0.018233569338917732,
+                0.0,
+                -0.008519788272678852,
+                0.0,
+                0.0,
+                0.020125849172472954,
+                0.0,
+                0.0,
+                0.008519788272678852,
+                0.0,
+                0.018233569338917732,
+                0.0,
+                -0.01608060672879219,
+                0.0004929046845063567,
+                0.09331128001213074,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9985
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        }
+    ],
+    "scene": 0
+}
